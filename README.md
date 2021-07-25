@@ -6,7 +6,7 @@ A Simple Notepad App Using QT
 1. Install qt5:
     * $ sudo apt-get install qt5-default
 2. Go to folder "AkanshaRawatQpad", compile qPad.pro and make:
-    * $ cd FrameWorkCode
+    * $ cd AkanshaRawatQpad
     * qmake qPad.pro
     * $ make
 3. Execute file qPad in folder "AkanshaRawatQpad"
