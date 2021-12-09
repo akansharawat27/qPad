@@ -101,7 +101,7 @@ void MainWindow::on_actionRedo_triggered()
 
 void MainWindow::on_actionAbout_Me_triggered()
 {
-    QDesktopServices::openUrl(QUrl("/home/asr16/qPad/CV_Akansha_Rawat.pdf", QUrl::TolerantMode));
+    QDesktopServices::openUrl(QUrl::fromLocalFile("./MyResume.pdf"));
 }
 
 
